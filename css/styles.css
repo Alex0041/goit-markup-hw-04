@@ -138,9 +138,12 @@ display: block;
   letter-spacing: 0.02em;
 }
 
+.mail-header:hover svg,
+.mail-header:hover svg,
 .mail-header:hover,
 .mail-header:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .mail-link {
@@ -152,24 +155,17 @@ display: block;
   margin-right: 10px;
 }
 
-.link .icon-mail:hover,
-.link .icon-mail:focus {
-  fill: var(--accent-color);
-}
-
 .icon-phone {
   fill:var(--primary-text-color);
   margin-right: 10px;
 }
 
-.icon-phone:hover,
-.icon-phone:focus {
-  fill:var(--accent-color)
-}
-
+.phone-header:hover svg,
+.phone-header:focus svg,
 .phone-header:hover,
 .phone-header:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .mail-header {
@@ -407,14 +403,12 @@ margin-top: 4px;
   color: var(--primary-white-color);
 }
 
+.social-networks-ltem:hover svg,
+.social-networks-ltem:focus svg,
 .social-networks-ltem:hover,
 .social-networks-ltem:focus {
   background-color:var(--accent-color);
-}
-
-.icon-social:hover,
-.icon-social:focus {
-  fill:var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 
 .link-social-network {
@@ -459,8 +453,11 @@ border-radius: 4px;
 background-color:var(--primary-white-color);
 }
 
-.icon-customer:hover,
-.icon-customer:focus {
+.link-client:hover svg,
+.link-client:focus svg,
+.link-client:hover,
+.link-client:focus {
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 
