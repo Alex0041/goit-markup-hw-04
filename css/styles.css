@@ -151,6 +151,7 @@ display: block;
   fill:var(--primary-text-color);
   margin-right: 10px;
 }
+
 .link .icon-mail:hover,
 .link .icon-mail:focus {
   fill: var(--accent-color);
