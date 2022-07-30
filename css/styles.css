@@ -238,13 +238,6 @@ background-size: contain;
 
 /* advantage */
 
-.icon-advantage {
-  display: flex;
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
 .advantage-section {
   padding-top: 94px;
 }
@@ -269,7 +262,7 @@ background-size: contain;
 .advantage-description {
   display: flex;
   align-items: center;
-  justify-content: ;
+  justify-content: center;
   width: 270px;
   height: 120px;
  background: #F5F4FA;
